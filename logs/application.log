@@ -1,0 +1,11 @@
+05/11/2020 13:01:31 devpinoyLogger this is test case1
+05/11/2020 13:01:31 devpinoyLogger this is test case1
+05/11/2020 13:01:31 devpinoyLogger this is test case1
+05/11/2020 13:01:31 devpinoyLogger on test start for methodTESTCASE1
+05/11/2020 13:01:32 devpinoyLogger this is test case2
+05/11/2020 13:01:32 devpinoyLogger this is test case2
+05/11/2020 13:01:32 devpinoyLogger this is test case2
+05/11/2020 13:01:32 devpinoyLogger on test start for methodTESTCASE2
+05/11/2020 13:01:32 devpinoyLogger failed due tojava.lang.AssertionError: expected [true] but found [false]
+05/11/2020 13:01:32 devpinoyLogger on test start for methodUITEST1
+05/11/2020 13:01:32 devpinoyLogger on test start for methodUITEST2

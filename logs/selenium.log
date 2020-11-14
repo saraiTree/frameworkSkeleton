@@ -1,0 +1,108 @@
+13:01:29,995 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+13:01:30,010 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+13:01:30,013 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:28703][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+13:01:30,030 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:28703][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+13:01:30,033 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:28703
+13:01:30,035 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/127.0.0.1:28703
+13:01:30,038 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:62511<->127.0.0.1:28703
+13:01:30,038 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+13:01:30,039 DEBUG MainClientExec:255 - Executing request POST /session HTTP/1.1
+13:01:30,039 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+13:01:30,040 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+13:01:30,042 DEBUG headers:135 - http-outgoing-0 >> POST /session HTTP/1.1
+13:01:30,042 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+13:01:30,042 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 122
+13:01:30,043 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:28703
+13:01:30,043 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+13:01:30,046 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/11.0.2)
+13:01:30,046 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+13:01:30,047 DEBUG wire:72 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+13:01:30,048 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:01:30,048 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+13:01:30,049 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:28703[\r][\n]"
+13:01:30,049 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+13:01:30,049 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/11.0.2)[\r][\n]"
+13:01:30,049 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:01:30,050 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+13:01:30,050 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+13:01:31,494 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+13:01:31,495 DEBUG wire:72 - http-outgoing-0 << "Content-Length:1080[\r][\n]"
+13:01:31,495 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+13:01:31,496 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+13:01:31,497 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"81855c02781f26fb6348cd0d14b48496","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})","userDataDir":"/var/folders/9f/v16xhxxs6gg88zbn9tbqf7dh0000gn/T/.com.google.Chrome.zaKsCx"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:62512"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","proxy":{},"rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"86.0.4240.183","webStorageEnabled":true,"webauthn:virtualAuthenticators":true}}"
+13:01:31,500 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+13:01:31,501 DEBUG headers:127 - http-outgoing-0 << Content-Length:1080
+13:01:31,501 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+13:01:31,508 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+13:01:31,517 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:28703] can be kept alive indefinitely
+13:01:31,518 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:28703][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+13:01:31,866  INFO devpinoyLogger:17 - this is test case1
+13:01:31,867 ERROR devpinoyLogger:18 - this is test case1
+13:01:31,867 FATAL devpinoyLogger:19 - this is test case1
+13:01:31,869  INFO devpinoyLogger:21 - on test start for methodTESTCASE1
+13:01:31,893 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+13:01:31,894 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+13:01:31,897 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:01:31,898 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:01:31,898 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/sushilkumargupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:01:32,248  INFO devpinoyLogger:28 - this is test case2
+13:01:32,249 ERROR devpinoyLogger:29 - this is test case2
+13:01:32,249 FATAL devpinoyLogger:30 - this is test case2
+13:01:32,251  INFO devpinoyLogger:21 - on test start for methodTESTCASE2
+13:01:32,253 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+13:01:32,254 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+13:01:32,254 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:01:32,255 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:01:32,256 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/sushilkumargupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:01:32,385 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+13:01:32,385 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+13:01:32,386 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:28703][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+13:01:32,386 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:28703][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+13:01:32,387 DEBUG MainClientExec:207 - Stale connection check
+13:01:32,389 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+13:01:32,389 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+13:01:32,390 DEBUG MainClientExec:255 - Executing request GET /session/81855c02781f26fb6348cd0d14b48496/screenshot HTTP/1.1
+13:01:32,390 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+13:01:32,390 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+13:01:32,391 DEBUG headers:135 - http-outgoing-0 >> GET /session/81855c02781f26fb6348cd0d14b48496/screenshot HTTP/1.1
+13:01:32,392 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+13:01:32,392 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:28703
+13:01:32,393 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+13:01:32,393 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/11.0.2)
+13:01:32,394 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+13:01:32,395 DEBUG wire:72 - http-outgoing-0 >> "GET /session/81855c02781f26fb6348cd0d14b48496/screenshot HTTP/1.1[\r][\n]"
+13:01:32,395 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+13:01:32,396 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:28703[\r][\n]"
+13:01:32,396 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+13:01:32,397 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/11.0.2)[\r][\n]"
+13:01:32,397 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:01:32,398 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+13:01:32,696 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+13:01:32,697 DEBUG wire:72 - http-outgoing-0 << "Content-Length:6742[\r][\n]"
+13:01:32,697 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+13:01:32,698 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+13:01:32,699 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"81855c02781f26fb6348cd0d14b48496","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABLAAAAKSCAYAAADClSLIAAABK2lDQ1BTa2lhAAAokX2Rv0vDQBTHPxYRqg6Cih0csggu/kjVhoJL02pxcGkVqoOQpqGITQ1pRHdx849wFCf/DHfByVVnoeDg5PfaIQWp73j3Pvd9l7v3cpDJIcvMQdhN4lrVtRonpxYj5vm9iPE2Ad9vZobXtX/2jbNsK+j5il/yJNblOrIlXmgP+cZwc8j3huOjWln8IF5tj3BzhK+TKBG/mP1+FBt+F++GnSs/rZvZoHtcV2zIl6lyqdGmQ8AGdS44xxOVsClSYEu+z7aiTZkKjqKjdRmXPWVKbCpXIa95Z8BFqU76P/07cNRn9ifVwj48T4N1mGorZ5CbgsfPyIu9gTRpHilwob+osp9g/gNmbqUumXT6bfoWY3q1/vRqcUAXn3VRXnXbFH4Bl4VJlExQc0oAABIbSURBVHic7dgxAQAgDMAwwL/n4YCXHomC3t0zMwsAAAAAos7vAAAAAAB4MbAAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEi7/1EJIDxO5CAAAAAASUVORK5CYII="}"
+13:01:32,700 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+13:01:32,701 DEBUG headers:127 - http-outgoing-0 << Content-Length:6742
+13:01:32,701 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+13:01:32,702 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+13:01:32,702 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:28703] can be kept alive indefinitely
+13:01:32,703 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:28703][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+13:01:32,741  INFO devpinoyLogger:32 - failed due tojava.lang.AssertionError: expected [true] but found [false]
+13:01:32,743 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+13:01:32,744 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+13:01:32,744 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:01:32,745 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:01:32,745 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/sushilkumargupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:01:32,801  INFO devpinoyLogger:21 - on test start for methodUITEST1
+13:01:32,806 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+13:01:32,807 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+13:01:32,807 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:01:32,807 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:01:32,808 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/sushilkumargupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+13:01:32,874  INFO devpinoyLogger:21 - on test start for methodUITEST2
+13:01:32,875 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+13:01:32,875 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+13:01:32,876 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+13:01:32,877 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+13:01:32,877 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/Users/sushilkumargupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
